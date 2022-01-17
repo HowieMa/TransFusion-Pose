@@ -11,8 +11,8 @@ In BMVC 2021
 * We propose the **Epipolar Field**, a novel and more general form of epipolar line. It readily integrates with the transformer through our proposed geometry positional encoding to encode the 3D relationships among different views.   
 * Extensive experiments are conducted to demonstrate that our TransFusion outperforms previous fusion methods on both Human 3.6M and SkiPose datasets, but requires substantially fewer parameters.  
 
-![TransFusion](images/framework.pdf) 
-![Epipolar Field](images/field.pdf)
+![TransFusion](https://github.com/HowieMa/TransFusion-Pose/blob/main/images/framework.pdf) 
+![Epipolar Field](https://github.com/HowieMa/TransFusion-Pose/blob/main/images/field.pdf)
 
 
 
