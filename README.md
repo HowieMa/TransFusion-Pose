@@ -8,8 +8,11 @@ In BMVC 2021
 
 ## Overview
 * We propose the **TransFusion**, which apply the transformer architecture to multi-view 3D human pose estimation  
-* We propose the epipolar field, a novel and more general form of epipolar line. It readily integrates with the transformer through our proposed geometry positional encoding to encode the 3D relationships among different views.   
+* We propose the **Epipolar Field**, a novel and more general form of epipolar line. It readily integrates with the transformer through our proposed geometry positional encoding to encode the 3D relationships among different views.   
 * Extensive experiments are conducted to demonstrate that our TransFusion outperforms previous fusion methods on both Human 3.6M and SkiPose datasets, but requires substantially fewer parameters.  
+
+![TransFusion](images/framework.pdf) 
+![Epipolar Field](images/field.pdf)
 
 
 
@@ -17,7 +20,7 @@ In BMVC 2021
 
 1. Clone this repo, and we'll call the directory that you cloned multiview-pose as ${POSE_ROOT}   
 ~~~
-git clone git@github.com:HowieMa/TransFusion-Pose.git
+git clone https://github.com/HowieMa/TransFusion-Pose.git
 ~~~
 
 2. Install dependencies. 
